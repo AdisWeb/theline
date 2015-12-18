@@ -1,0 +1,823 @@
+@font-face {
+  font-family: 'BebasNeueBook';
+  src: url('../fonts/ttfs/BebasNeueBook.ttf');
+}
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url('../fonts/ttfs/BebasNeueRegular.ttf');
+}
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: url('../fonts/ttfs/BebasNeueBold.ttf');
+}
+@font-face {
+  font-family: 'BebasNeueLight';
+  src: url('../fonts/ttfs/BebasNeueLight.ttf');
+}
+@font-face {
+  font-family: 'BebasNeueThin';
+  src: url('../fonts/ttfs/BebasNeueThin.ttf');
+}
+@font-face {
+  font-family: 'PoliticaLight';
+  src: url('../fonts/ttfs/PoliticaLight.ttf') ;
+}
+body {
+  color: #fff;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+  margin: 0;
+  font-family: 'PoliticaLight';
+}
+li {
+  display: flex;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#content {
+  font-family: "BebasNeueRegular";
+  padding: 25px;
+  height: 100%;
+  width: 100%;
+}
+#nav a {
+  font-family: BebasNeueLight;
+  font-weight: 200;
+}
+.home,
+.about,
+.services,
+.contacts {
+  border: 1px solid #FFFFFF;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+.adout_icon img{
+  width: 50px;
+  height: 50px;  
+   margin-bottom: 15px;
+}
+.adout_icon h5{
+      position: relative;
+    padding-left: 20px;
+    margin-top: 10px;
+        text-align: left;
+}
+.text_about{
+    position: relative;
+    text-align: left;
+    display: inline-block;
+    width: 69%;
+    font-family: 'BebasNeueRegular';
+    font-size: 14px;
+    letter-spacing: 1px;
+        margin-left: 169px;
+
+}
+.sn-nav-wrapper {
+  background: url('../img/s1.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1.home_title {
+    font-size: 100px;
+    margin-top: -5%;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'BebasNeueLight';
+    letter-spacing: 13px;
+    margin: auto;
+    width: 60%;
+    border-bottom: 3px solid #FFFFFF;
+     margin-bottom: 1%;
+}
+h4.home_text{
+    margin: auto;
+    width: 48%;
+    margin-bottom: 10px;
+    font-family: 'PoliticaLight';
+    font-size: 12px;
+    letter-spacing: 2px;
+  
+}
+h1.title_about,
+h1.title_services,
+h1.title_contacts {
+  float: left;
+  font-size: 49px;
+  font-weight: 100;
+  margin-bottom: 8%;
+  font-family: BebasNeueRegular;
+  margin-top: 2%;
+   
+}
+
+h1.logo_home,
+h1.logo_about,
+h1.logo_services,
+h1.logo_contacts {
+  display: inline;
+  float: left;
+  font-size: 75px;
+  font-weight: 100;
+  font-family: 'BebasNeueLight';
+}
+.open {
+  display: inline;
+  float: right;
+}
+.clear {
+  width: 100%;
+  clear: both;
+}
+/***** contacts *****/
+.map {
+  float: left;
+  margin-bottom: 8%;
+}
+.map img {
+  width: 32px;
+  position: relative;
+  margin-top: 30%;
+}
+.adres {
+  float: left;
+  margin-top: 2px;
+  margin-left: 10px;
+  position: relative;
+}
+.adres h4 {
+  font-family: BebasNeueRegular;
+  font-size: 26px;
+}
+.phone {
+  float: left;
+}
+.phone img {
+  width: 32px;
+  position: relative;
+  margin-top: 41%;
+}
+.phone_namder {
+  float: left;
+  margin-top: -8px;
+  position: relative;
+  margin-left: 13px;
+  font-family: 'BebasNeueThin';
+}
+.phone_namder h4 {
+  font-family: BebasNeueRegular;
+  font-size: 26px;
+}
+.contacts_icon {
+  margin-top: 3px;
+  position: relative;
+  float: left;
+}
+.contacts_icon {
+  margin-top: 24px;
+  position: relative;
+  margin-left: -28px;
+}
+.contacts_icon ul li {
+  display: block;
+  font-size: 14px;
+  margin: 11px 8px;
+}
+.contacts_icon ul li a:hover i,
+.contacts_iconul li a:focus i,
+.contacts_icon ul li a.active i {
+  color: #fff;
+  border: 1px solid #222;
+  background: #222;
+}
+.contacts_icon ul li a i {
+  color: #222;
+  border: 1px solid #fff;
+  background: #fff;
+  font-size: 40px;
+  transition: all .4s;
+}
+.fa-facebook {
+  padding: 5px 15px;
+  border-radius: 50%;
+}
+.fa-twitter {
+  padding: 5px 6px;
+  border-radius: 50%;
+}
+.fa-google-plus {
+  padding: 5px 6px;
+  border-radius: 50%;
+}
+.fa-instagram {
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+.fa-linkedin {
+  padding: 5px 6px;
+  border-radius: 50%;
+}
+.contacts_icon img {
+  width: 37%;
+}
+h3.fb {
+  position: absolute;
+  margin-left: 45px;
+  margin-top: -19px;
+  float: left;
+}
+h3.twitter {
+  position: absolute;
+  margin-left: 46px;
+  margin-top: -18px;
+  float: left;
+}
+h3.google {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: -19px;
+  float: left;
+  width: 166px;
+}
+h3.instagram {
+  position: absolute;
+  margin-left: 44px;
+  margin-top: -20px;
+  float: left;
+}
+h3.linkedin {
+  position: absolute;
+  margin-left: 44px;
+  margin-top: -20px;
+  float: left;
+}
+textarea {
+  resize: none;
+}
+.form-label {
+  font-size: 12px;
+  float: right;
+  color: #5e9bfc;
+  margin: 0;
+  display: block;
+  opacity: 1;
+  -webkit-transition: .333s ease top, .333s ease opacity;
+  transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+  border-radius: 0;
+  border-color: #FFF;
+  border-width: 0 0 2px 0;
+  border-style: none none solid none;
+  box-shadow: none;
+  background-color: rgba(255, 255, 255, 0);
+  height: 73px;
+  text-align: right;
+  margin-bottom: -14px;
+  font-size: 32px;
+  font-family: 'BebasNeueLight';
+  font-weight: 100;
+  display: block;
+  margin: 6px 41px -9px;
+  border-bottom: 1px solid #FFF;
+  color: white;
+}
+input[type=text] {
+  width: 400px;
+  float: right;
+  -webkit-transition: ease-in-out, width 0.35s ease-in-out;
+  transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+input[type=email] {
+  width: 400px;
+  float: right;
+  -webkit-transition: ease-in-out, width 0.35s ease-in-out;
+  transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+#message {
+  width: 400px;
+  float: right;
+  -webkit-transition: ease-in-out, width 0.35s ease-in-out;
+  transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #5e9bfc;
+}
+.js-hide-label {
+  opacity: 0;
+}
+.js-unhighlight-label {
+  color: #999999;
+}
+.btn-start-order {
+ background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-family:  'PoliticaLight';;
+  font-size: 20px;
+  margin: 30px 0;
+  padding: 10px 10px 10px 50px;
+  text-transform: uppercase;
+  transition: all 0.25s ease 0s;
+  float: right;
+  margin-left: 450px;
+  margin-right: 44px;
+
+}
+.btn-start-order:hover,
+.btn-start-order:active,
+.btn-start-order:focus {
+  border-bottom: 1px solid #999;
+  color: #fff;
+  display: block;
+}
+
+
+/***** Coming Soon *****/
+.coming-soon {
+  margin: 0 auto;
+}
+.inner-bg {
+  padding: 75px 0 40px 0;
+}
+.coming-soon .logo {
+  padding-bottom: 20px;
+}
+.coming-soon .logo h1 {
+  margin: 0;
+}
+.coming-soon .logo a {
+  display: inline-block;
+  width: 200px;
+  height: 110px;
+  background: url(../img/logo.png) center center no-repeat;
+  text-indent: -99999px;
+}
+.coming-soon .logo a:focus {
+  outline: 0;
+}
+.coming-soon .logo a:hover {
+  background-image: url(../img/logo-hover.png);
+}
+.coming-soon .logo a:before {
+  content: url(../img/logo-hover.png);
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+.coming-soon p {
+  margin: 60px 0 10px 0;
+  padding: 0 120px;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+/* -------------------------------- 
+
+Notify Me
+
+-------------------------------- */
+#fieldshow, #fieldshow_about{
+  color: #ffffff;
+    text-transform: uppercase;
+    border: 2px solid #FFF;
+       background-color: rgba(0, 0, 0, 0);
+    padding: 1.2em 1.4em;
+
+    border: 2px solid #ffffff;
+      margin-top: -25px;
+        outline: none;
+        transition:3s ease;
+}
+#buttonshow{
+      color: #ffffff;
+    text-transform: uppercase;
+    border: 2px solid #FFF;
+        background-color: rgba(0, 0, 0, 0);
+    padding: 1.2em 1.4em;
+
+    margin-left: -2px;
+     margin-top: -25px;
+        outline: none;
+        transition:3s ease;
+        font-family: 'BebasNeueRegular';
+}
+.notify{
+    display: inline-block;
+    margin-top: -25px;
+    font-size: 3.3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 2px solid #FFF;
+    padding-left: 14px;
+    padding-right: 14px;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+
+/***** timer  *****/
+.timer .days-wrapper,
+.timer .hours-wrapper,
+.timer .minutes-wrapper,
+.timer .seconds-wrapper {
+    display: inline-block;
+    width: 190px;
+    margin: -11px -22px;
+    font-size: 33px;
+    text-align: center;
+    font-family: 'BebasNeueBold';
+    margin-bottom: 40px;
+}
+.timer .days,
+.timer .hours,
+.timer .minutes,
+.timer .seconds {
+  font-size: 100px;
+  font-weight: 100;
+  line-height: 90px;
+  font-family: 'BebasNeueThin';
+}
+.subscribe {
+  margin-top: 60px;
+}
+.subscribe form input {
+  width: 362px;
+  height: 52px;
+}
+.success-message,
+.error-message {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 32px;
+}
+.home {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.hitem-1,
+.hitem-2,
+.hitem-3,
+.hitem-4 {
+  display: none;
+}
+.hitem-1 img,
+.hitem-2 img,
+.hitem-3 img,
+.hitem-4 img {
+  width: 61%;
+  padding-bottom: 33px;
+}
+.hitem-1 h2,
+.hitem-2 h2,
+.hitem-3 h2,
+.hitem-4 h2 {
+  font-family: BebasNeueRegular;
+  font-size: 36px;
+}
+.hitem-1 h3,
+.hitem-2 h3,
+.hitem-3 h3,
+.hitem-4 h3 {
+  font-family: 'BebasNeueLight';
+}
+.a1,
+.a2,
+.a3,
+.a4 {
+  font-size: 40px;
+  float: left;
+  font-weight: 100;
+  font-family: 'BebasNeueLight';
+}
+.holder {
+  position: absolute;
+  text-align: right;
+  margin-top: 6%;
+  float: right;
+  margin-left: 35%;
+}
+.coll,
+.web,
+.question,
+.ebsite,
+.hosting {
+  width: 19%;
+}
+/*
+*   Owl Carousel Owl Demo Theme 
+*   v1.23
+*/
+.owl-theme .owl-controls {
+  margin-top: 10px;
+  text-align: center;
+}
+/* Styling Next and Prev buttons */
+.owl-theme .owl-controls .owl-buttons div {
+  color: #FFF;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  /*IE7 life-saver */
+
+  margin: 5px;
+  padding: 3px 10px;
+  font-size: 12px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background: #869791;
+  filter: alpha(opacity=50);
+  /*IE7 fix*/
+
+  opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+  filter: alpha(opacity=100);
+  /*IE7 fix*/
+
+  opacity: 1;
+  text-decoration: none;
+}
+/* Styling Pagination*/
+.owl-theme .owl-controls .owl-page {
+  /* display: inline-block;
+    zoom: 1;
+    *display: inline; IE7 life-saver */
+
+  display: none;
+}
+.owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 5px 7px;
+  filter: alpha(opacity=50);
+  /*IE7 fix*/
+
+  opacity: 0.5;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: #869791;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  filter: alpha(opacity=100);
+  /*IE7 fix*/
+
+  opacity: 1;
+}
+/* If PaginationNumbers is true */
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+  height: auto;
+  width: auto;
+  color: #FFF;
+  padding: 2px 10px;
+  font-size: 12px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+/* preloading images */
+.owl-item.loading {
+  min-height: 150px;
+  background: url(AjaxLoader.gif) no-repeat center center;
+}
+#owl-demo .owl-item > div img {
+  display: block;
+     width: 42%;
+  height: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 4px;
+  margin: 0 auto;
+      margin-bottom: 4%;
+}
+#owl-demo .owl-item > div {
+  background: rgba(66, 189, 194, 0);
+  text-align: center;
+  padding: 50px 0px;
+  margin: 1px;
+  color: white;
+  font-size: 32px;
+  border: 1px white;
+}
+.owl-item h4{
+       font-size: 23px;
+    font-weight: 800;
+     font-family: 'BebasNeueRegular';
+    letter-spacing: 2px;
+    margin-bottom: -2px;
+}
+.owl-item h5{
+     font-size: 15px;
+    font-family: 'BebasNeueLight';
+    letter-spacing: 3px;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 10px;
+    padding: 9px;
+}
+.owl-item h6{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 46px;
+    font-family: 'PoliticaLight';
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.wrapper-with-margin {
+  margin: 0px 50px;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  /* left: -45px;
+  top: 55px; */
+
+  display: none;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  /*right: -45px;
+  top: 55px;*/
+
+  display: none;
+}
+.fa-desktop {
+  font-size: 80px;
+}
+
+/***** 728-840px  *****/
+
+/***** 360-480px  *****/
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+  .timer .days,
+  .timer .hours,
+  .timer .minutes,
+  .timer .seconds {
+    font-size: 94px;
+  }
+  .hitem-1 h2,
+  .hitem-2 h2,
+  .hitem-3 h2,
+  .hitem-4 h2 {
+    font-size: 29px;
+  }
+  .holder {
+    margin-left: -25%;
+  }
+
+  h1.home_title {
+    font-size: 60px;
+  }
+}
+/***** 320-480px  *****/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .timer .days,
+  .timer .hours,
+  .timer .minutes,
+  .timer .seconds {
+    font-size: 94px;
+  }
+  .hitem-1 h2,
+  .hitem-2 h2,
+  .hitem-3 h2,
+  .hitem-4 h2 {
+    font-size: 29px;
+  }
+  .holder {
+    margin-left: -25%;
+  }
+
+  h1.home_title {
+    font-size: 60px;
+  }
+  #message {
+    width: 200px;
+
+}
+#message:focus {
+    width: 200px;
+}
+.text_about p{
+      margin-left: -178px;
+    width: 265px;
+}
+#message {
+    width: 200px;
+}
+
+input[type=email]{
+    width: 200px;
+}
+input[type=text] {
+    width: 200px;
+}
+/***** 480-727px  *****/
+@media only screen and (min-width: 480px) and (max-width: 560px) {
+
+  .timer .days,
+  .timer .hours,
+  .timer .minutes,
+  .timer .seconds {
+    font-size: 94px;
+  }
+  .hitem-1 h2,
+  .hitem-2 h2,
+  .hitem-3 h2,
+  .hitem-4 h2 {
+    font-size: 29px;
+  }
+  .holder {
+    margin-left: -25%;
+  }
+
+  h1.home_title {
+    font-size: 60px;
+  }
+
+  .contacts {
+    overflow: inherit;
+    overflow-y: hidden;
+  }
+    #message {
+    width: 300px;
+
+}
+#message:focus {
+    width: 300px;
+}
+input[type=email] {
+  width: 300px;
+}
+input[type=text] {
+ width: 300px;
+}
+input[type=email]:focus {
+    width: 300px;
+}
+input[type=text]:focus {
+    width: 300px;
+}
+.text_about p{
+      margin-left: -178px;
+    width: 265px;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 599px) {
+
+.text_about p{
+      margin-left: -178px;
+    width: 265px;
+}
+}
+@media only screen and (min-width: 1027px) and (max-width: 2220px) {
+
+
+#message:focus {
+    width: 200px;
+}
+
+input[type=email]:focus {
+    width: 200px;
+}
+input[type=text]:focus {
+    width: 200px;
+}
